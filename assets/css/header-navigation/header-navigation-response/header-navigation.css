@@ -1,4 +1,4 @@
-@media (max-width:320px){
+@media (max-width:320px) {
   .header{ 
   /*border: solid black 1px;*/
   display: flex;
@@ -28,7 +28,6 @@
   /*box-model*/
   margin-top: 0rem;
   margin-left: 1rem;
-  background-image: url('/assets/images/eu.jpeg');
   background-size: 100% ;
   background-repeat: no-repeat;
 }
@@ -209,7 +208,7 @@ li{
     /*box-model*/
     margin-top: 0rem;
     margin-left: 1rem;
-    background-image: url('/assets/images/eu.jpeg');
+    background-image: url('../assets/images/eu.jpeg');
     background-size: 100% ;
     background-repeat: no-repeat;
   }
@@ -260,7 +259,7 @@ li{
     width: 20vw;
     height: 5vh;
   }
-  .header__photo{
+  .header__photo-photo{
     /* border: solid black 1px;   */
     border-radius: 50%;
     width: 30vw;

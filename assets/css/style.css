@@ -1,4 +1,6 @@
-
+*{
+  margin: 0;
+}
 :root{
   --background-color-header:#E0FFFF;
   --font-family: font-family 'Open Sans', sans-serif, 'Poppins', sans-serif;
