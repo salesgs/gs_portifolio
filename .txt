@@ -1,0 +1,8 @@
+responsividade:
+Cabeçalho
+  320px:ok
+  360px:ok
+  375px:ok
+  425px:ok
+  720px:ok
+  1024px:ok
