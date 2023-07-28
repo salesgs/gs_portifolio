@@ -4,5 +4,9 @@ Cabeçalho
   360px:ok
   375px:ok
   425px:ok
+  480px:ok
+  600px:ok
   720px:ok
+  801:px ok
   1024px:ok
+  1025px:
