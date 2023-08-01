@@ -2,8 +2,11 @@
 @media (max-width:480px){
   .header{
     width: 100vw;
-    height: 95vh;
+    height: 90vh;
     display: flex;    
+  }
+  .header__sobre{
+    margin-top: -2rem;
   }
   .header__link{
     width: 100vw;
