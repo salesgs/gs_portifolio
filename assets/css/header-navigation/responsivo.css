@@ -2,6 +2,7 @@
 @media (max-width:480px){
   .header{
     width: 100vw;
+    height: 95vh;
     display: flex;    
   }
   .header__link{
@@ -26,6 +27,7 @@
   .header__link-iten{
     display: none;   
   }
+
   .header__photo{
     height: 15vh;
     border-radius: 50%;
@@ -46,19 +48,23 @@
     flex-direction: column;
     width: 100vw;     
   }
-  .header__sobre-link{
+  .header__sobre-link-li{
     /* border: solid black 1px; */
+    padding: 1rem;
+  }
+  .header__sobre-link li >a{
+     /* border: solid black 1px;  */
     width: 100vw;
-    
+    background-color: var(--background-color-header);
+    padding: 0.40rem;
   }
   .header__sobre-link li{
+    
     font-size: 0.70rem;
     
     /* box-model */
     margin-left:-2rem ;
-    padding-left: 0.75rem;
-    
-    background-color: var(--background-color-header);
+    margin-top: -2rem;
     /* border: solid black 1px; */
    }
 
