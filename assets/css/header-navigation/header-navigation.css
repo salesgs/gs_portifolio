@@ -131,9 +131,18 @@ li{
   font-family: 'Poppins', sans-serif;  
   color: var(--color-text);
 }
-.header__sobre-link li > a{
+.header__sobre-link li >a{
   text-decoration: none;
   background-color: #F0F8FF;
   font-family: 'Poppins', sans-serif;  
   color:var(--color-text) ;
+  
+  
+}
+/* estilos */
+a:hover{
+  background: blue;
+}
+.header__sobre-link-li>a:hover{
+  background: blue;
 }
