@@ -26,6 +26,7 @@
   height: 20vh;
   margin-top :1rem;
   padding-top: 0;
+  color: var(--color-text);
 }
 #h3__eu-titulo{
   font-family:var(--font-family-header) ;
@@ -60,6 +61,9 @@
   height: 20vh;
   /* box-model */
   margin-top: 1rem;
+}
+.h1{
+  color:var(--color-text) ;
 }
  
 .header__sobre-link {
@@ -99,8 +103,8 @@
  }
  .header__link-itens li >a{
   text-decoration:none;
-  background-color: #F0F8FF;
-  color: 	#363636;
+  color: var(--color-text);
+
 }
  li{ /*header link*/
   text-decoration: none;
@@ -125,12 +129,11 @@ li{
 }
 .haeder__sobre-text p{
   font-family: 'Poppins', sans-serif;  
- 
+  color: var(--color-text);
 }
 .header__sobre-link li > a{
   text-decoration: none;
   background-color: #F0F8FF;
   font-family: 'Poppins', sans-serif;  
-  color:#363636 ;
+  color:var(--color-text) ;
 }
-
