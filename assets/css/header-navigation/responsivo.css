@@ -51,9 +51,15 @@
     flex-direction: column;
     width: 100vw;     
   }
+  .header__sobre-paragraphy{
+    margin-top: 1rem;
+  }
+  .header__link{
+    margin-top: 2rem;
+  }
   .header__sobre-link-li{
     /* border: solid black 1px; */
-    padding: 1rem;
+    padding: 1.15rem;
   }
   .header__sobre-link li >a{
      /* border: solid black 1px;  */
