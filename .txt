@@ -1,4 +1,5 @@
 responsividade:
 Cabeçalho
   320px:ok
+  420px:0k
  

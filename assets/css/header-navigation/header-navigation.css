@@ -74,9 +74,10 @@
 .header__sobre-photo{
   /* border: solid black 1px; */
   width: 30vw;
-  height: 20vh;
+  height: 30vh;
   /* box-model */
-  margin-top: 1rem;
+  margin-top: -1rem;
+  /* border: solid black 1px; */
 }
 .logo{
   /* border: solid black 1px; */
