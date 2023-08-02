@@ -1,15 +1,26 @@
+
+.skills{
+  background-color:var( --background-color-header);
+ 
+}
 .title__skilss{
   display: flex;
   justify-content: center;
-  font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
-  
+  font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;  
   /* box-model */
   margin-top: 1rem;
-  
+  color: var( --color-text); 
+  background-color:var( --background-color-header);
+ 
+}
+.skills__titulo{
+  font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
+  text-align: center;
+  color: var( --color-text);  
 }
 .skills{
   border: solid black 1px;
-  background-color: white;
+  background-color:var( --background-color-header);
   width: 100vw;
   height: 80vh;
   /* flex-box */
@@ -20,56 +31,54 @@
 .skills__HTML{
   border: solid black 1px;
   /* background-color: red; */
-  width: 15vw;
-  height: 25vh;
+  width: 10vw;
+  height: 20vh;
 }
 #image-html{
   width: 75%;
-  padding-left: 1rem;
-  padding-top: 0.75rem;
+
 }
 
 .skills__CSS{
   border: solid black 1px;
-  width: 15vw;
-  height: 25vh;
+  width: 10vw;
+  height: 20vh;
 
 }
 #image-css{
   width: 75%;
-  padding-left: 1rem;
-  padding-top: 0.75rem;
-
-}
+ }
 .skills__Js{
   border: solid black 1px;
-  background-color:yellow;
-  width: 15vw;
-  height: 25vh;
-
+  width: 10vw;
+  height: 20vh;
+}
+#images-js{
+  width: 75%;
 }
 .skills__Java{
   border: solid black 1px;
-  background-color:orange;
-  width: 15vw;
-  height: 25vh;
+  width: 10vw;
+  height: 20vh;
   
+}
+#images-java{
+  width: 75%;
 }
 .skills__sql{
   border: solid black 1px;
-  background-color:grey;
-  width: 15vw;
-  height: 25vh;
+  width: 10vw;
+  height: 20vh;
+}
+#images-sql{
+  width: 75%;
 }
 .skills__git{
   border: solid black 1px;
-  width: 15vw;
-  height: 25vh;
-
+  width: 10vw;
+  height: 20vh;
 }
 #images-git{
   width: 75%;
-  padding-left: 1rem;
-  padding-top: 0.75rem;
- 
+
 }

@@ -1,0 +1,48 @@
+@media(max-width:480px){
+  
+  .container__sobre-paragrapy{
+    margin-top: -1rem;
+    font-size: 0.80rem;
+  }
+  .skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .skills__titulo{
+    font-size: 0.85rem;
+    
+  }
+  .skills__HTML{
+    border: solid black 1px;
+    /* background-color: red; */
+    width: 25vw;
+    height: 20vh;
+  }
+  .skills__CSS{
+    border: solid black 1px;
+    width: 25vw;
+    height: 20vh;   
+  }
+  .skills__Js{
+    border: solid black 1px;
+    width: 25vw;
+    height: 20vh;
+   }
+  .skills__Java{
+    border: solid black 1px;
+    width: 25vw;
+    height: 20vh;
+  }
+  
+  .skills__sql{
+    border: solid black 1px;
+    width: 25vw;
+    height: 20vh;
+   }
+  .skills__git{
+    border: solid black 1px;
+    width: 25vw;
+    height: 20vh;
+  } 
+}
