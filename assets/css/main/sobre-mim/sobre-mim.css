@@ -4,7 +4,7 @@
   height: 80vh;
   display: flex;
    background-color: var(--background-color-header); 
-   margin-top: -5rem;
+   margin-top: -9rem;
 }
 .container__sobre{
    /* border: solid black 1px;  */

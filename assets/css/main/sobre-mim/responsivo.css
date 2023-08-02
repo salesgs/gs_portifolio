@@ -5,11 +5,12 @@
     width: 100vw;
     height: 80vh;
      /* box-model */
-     margin-top: 3rem;
-  }
+    margin-top: 6rem;
+    }
+
   .container__sobre-text{
    /* box-model */
-   margin-top: 3rem;
+   margin-top: 4rem;
     
   }
 
@@ -21,12 +22,12 @@
     height: 80vh;
    /* box-model */
       /* box-model */
-    margin-top: 3rem;
- 
+    
+      margin-top: 1rem;
   }
   .container__sobre-text{
-    font-size: 1rem;
-    
+    font-size: 2rem;
+    margin-top: 4rem;
   }
   .container__sobre-paragrapy{
     font-size: 1rem;
