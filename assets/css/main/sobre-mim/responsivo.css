@@ -5,7 +5,12 @@
     width: 100vw;
     height: 80vh;
      /* box-model */
-     margin-top: 1rem;
+     margin-top: 3rem;
+  }
+  .container__sobre-text{
+   /* box-model */
+   margin-top: 3rem;
+    
   }
 
 }
@@ -15,6 +20,15 @@
     width: 100vw;
     height: 80vh;
    /* box-model */
-    margin-top: 0.50rem;
+      /* box-model */
+    margin-top: 3rem;
+ 
+  }
+  .container__sobre-text{
+    font-size: 1rem;
+    
+  }
+  .container__sobre-paragrapy{
+    font-size: 1rem;
   }
 }
