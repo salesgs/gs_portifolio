@@ -3,8 +3,8 @@
   width: 100vw;
   height: 80vh;
   display: flex;
-   background-color: var(--background-color-header); 
-   margin-top: -9rem;
+   background-color: var(--background-color-header);  
+   margin-top: -15rem;
 }
 .container__sobre{
    /* border: solid black 1px;  */
@@ -15,12 +15,14 @@
 }
 .container__sobre-text{
   font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
-   color: var(--color-text); 
+   color: var(--color-text);  
   
 }
 .container__sobre-paragrapy{
   font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
-  padding-top: 1rem;
   font-size: 0.90rem;
    color: var(--color-text); 
-}
+ /* box-model */
+   padding-top: 0.70rem;
+  
+  }

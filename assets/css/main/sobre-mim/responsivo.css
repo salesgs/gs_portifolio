@@ -1,20 +1,30 @@
 /* celulares */
 @media(max-width:480px){
   .container__sobre{
-    margin: 0rem 2.75rem;
+    margin: 0rem 3rem;
     width: 100vw;
-    height: 80vh;
+    height: 40vh;
      /* box-model */
-    margin-top: 6rem;
-    }
+    padding-top: 2rem;
+    margin-top: 12rem;
+    margin-left: 2rem;
+    /* border: solid black 1px; */
+
+}
 
   .container__sobre-text{
    /* box-model */
-   margin-top: 4rem;
+   margin-top: -2rem;
     
+  }
+  .container__sobre-paragrapy{
+    font-size: 0.55rem;
+    /* border: solid black 1px; */
+    width: 80vw;
   }
 
 }
+/* tablet */
 @media(min-width:490px){
   .container__sobre{
     margin: 0rem 2.75rem;
@@ -23,13 +33,27 @@
    /* box-model */
       /* box-model */
     
-      margin-top: 1rem;
+      margin-top: 4rem;
   }
+  .container__sobre-text{
+    font-size: 1.55rem;
+    margin-top: 7rem;
+    
+
+  }
+  .container__sobre-paragrapy{
+    font-size: 0.85rem;
+  }
+
+}
+@media (min-width:1024px){
   .container__sobre-text{
     font-size: 2rem;
     margin-top: 4rem;
+    
   }
   .container__sobre-paragrapy{
     font-size: 1rem;
   }
+  
 }

@@ -1,5 +1,5 @@
 .header{/*pai*/
-  background-color: var(--background-color-header);
+  background-color: var(--background-color-header); 
   width: 100vw;
   height: 100vh;
   /* border: solid black 1px; */
@@ -26,14 +26,14 @@
   height: 20vh;
   margin-top :1rem;
   padding-top: 0;
-  color: var(--color-text);
+   color: var(--color-text); 
 }
 #h3__eu-titulo{
   font-family:var(--font-family-header) ;
 
 }
 .header__link-itens {/*pai*/
-  /* border:solid black 1px; */
+   border:solid black 1px; 
   width: 40vw;
   height: 20vh;
   
@@ -63,7 +63,7 @@
   margin-top: 1rem;
 }
 .h1{
-  color:var(--color-text) ;
+  color:var(--color-text) 
 }
  
 .header__sobre-link {
@@ -103,7 +103,7 @@
  }
  .header__link-itens li >a{
   text-decoration:none;
-  color: var(--color-text);
+  color: var(--color-text); 
 
 }
  li{ /*header link*/
@@ -129,7 +129,7 @@ li{
 }
 .haeder__sobre-text p{
   font-family: 'Poppins', sans-serif;  
-  color: var(--color-text);
+   color: var(--color-text);
 }
 .header__sobre-link li >a{
   text-decoration: none;

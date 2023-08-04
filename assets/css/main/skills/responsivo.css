@@ -1,48 +1,126 @@
 @media(max-width:480px){
-  
+ 
+  .header__sobre-link-li{
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+  }
   .container__sobre-paragrapy{
-    margin-top: -1rem;
-    font-size: 0.80rem;
+    margin-top: 0;
+    font-size: 1rem;  
+    /* box-model */
+   padding-top: 2rem;
+   padding-bottom: 1rem;
+    
+  }
+  .title__skilss{
+    /* box-model */
+   margin-top: 1rem;
+   padding-top: 6.30rem;
+  
   }
   .skills{
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* box-model */
+    margin-top: 0.1rem;
+   
   }
   .skills__titulo{
-    font-size: 0.85rem;
-    
+    font-size: 0.85rem; 
   }
   .skills__HTML{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     /* background-color: red; */
     width: 25vw;
     height: 20vh;
+    /* flex-box */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
   }
   .skills__CSS{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 25vw;
     height: 20vh;   
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
   }
   .skills__Js{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 25vw;
     height: 20vh;
-   }
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
   .skills__Java{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 25vw;
     height: 20vh;
+ /* flex-box */
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+
   }
   
   .skills__sql{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 25vw;
     height: 20vh;
-   }
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  }
   .skills__git{
-    border: solid black 1px;
+    /* border: solid black 1px; */
     width: 25vw;
     height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
   } 
+}
+
+@media (min-width:490px){
+  .container__sobre-text{
+    
+    padding-top: 2rem; 
+  }
+  .title__skilss{
+    /* box-model */
+   margin-bottom: 1rem; 
+   margin-top: -8rem;
+    
+  }
+   
+  .title__skilss{
+    margin-top: -1.20rem;
+  }
+}
+@media (min-width:1024px){
+ 
+  .skills{
+    /* margin-top: -2rem; */
+  }
+  .title__skilss{
+    margin-top: -13rem;
+  }
+}
+
+@media (min-width:1024px){
+ .title__skilss{
+  margin-top: -8rem;
+ } 
 }

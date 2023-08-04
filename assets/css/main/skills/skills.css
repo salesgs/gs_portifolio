@@ -1,6 +1,5 @@
-
 .skills{
-  background-color:var( --background-color-header);
+   background-color:var( --background-color-header); 
  
 }
 .title__skilss{
@@ -8,19 +7,19 @@
   justify-content: center;
   font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;  
   /* box-model */
-  margin-top: 1rem;
-  color: var( --color-text); 
-  background-color:var( --background-color-header);
- 
+  margin-top: -35rem;
+  color: var( --color-text);  
+   background-color:var( --background-color-header); 
+
 }
 .skills__titulo{
   font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
   text-align: center;
-  color: var( --color-text);  
+   color: var( --color-text);   
 }
 .skills{
-  border: solid black 1px;
-  background-color:var( --background-color-header);
+  /* border: solid black 1px; */
+  background-color:var( --background-color-header); 
   width: 100vw;
   height: 80vh;
   /* flex-box */
@@ -29,10 +28,14 @@
   justify-content: space-around;
 }
 .skills__HTML{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   /* background-color: red; */
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #image-html{
   width: 75%;
@@ -43,40 +46,63 @@
   border: solid black 1px;
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
 }
 #image-css{
   width: 75%;
  }
 .skills__Js{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 #images-js{
   width: 75%;
 }
 .skills__Java{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   
 }
 #images-java{
   width: 75%;
 }
 .skills__sql{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 #images-sql{
   width: 75%;
 }
 .skills__git{
-  border: solid black 1px;
+  /* border: solid black 1px; */
   width: 10vw;
   height: 20vh;
+  /* flex-box */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 #images-git{
   width: 75%;
