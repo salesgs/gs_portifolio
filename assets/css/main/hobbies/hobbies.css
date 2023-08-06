@@ -1,0 +1,59 @@
+.hobbies{
+  width: 100vw;
+  height: 90vh;
+  /* border: solid black 1px; */
+  /* box-model */
+  margin-top: -4rem;
+  /* flex-box */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: var(  --background-color-header);
+
+}
+.hobbies__music{
+  /* border: solid black 1px; */
+  width: 80vw;
+  height: 70vh;
+  border: solid 3px var( --boder-video);
+  /* flex-box */
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+
+}
+.hobbies__title{
+  /* border: solid black 1px; */
+  width: 30vw;
+  height: 5vh;
+  /* box-model */
+  margin-top: -3rem;
+  text-align: center;
+  color: var(--color-text);
+}
+.hobbies__video{
+  /* border: solid black 1px; */
+  width: 40vw;
+  height: 52vh;
+  /* box-model */
+  margin-top: 2rem;
+  position: relative;
+  width: 100%; 
+}
+.hobbies__video iframe{
+  position: absolute;
+  width: 100%;
+  height: 100%; 
+  border: none;
+}
+/* estilo */
+
+.hobbies__title-text{
+  font-family: var(--font-family);
+
+}
+.hobbies__video-text{
+  font-family: var(--font-family);
+
+}

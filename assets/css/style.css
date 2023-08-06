@@ -1,13 +1,14 @@
 body{
-  background-color: var( --background-color-header); 
+   background-color: var( --background-color-header); 
 }
 *{
   margin: 0;
 }
 :root{
   --background-color-header:#E0FFFF;
-  --font-family: font-family 'Open Sans', sans-serif, 'Poppins', sans-serif;
+  --font-family: 'Open Sans', sans-serif, 'Poppins', sans-serif;
 
   --background-color-header:	#000000;
   --color-text:	#F8F8FF;
+  --boder-video:#FF0000;
 }
