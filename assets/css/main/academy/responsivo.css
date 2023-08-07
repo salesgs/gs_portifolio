@@ -1,0 +1,22 @@
+@media (max-width:480px){
+  .academys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .academys__senai{
+    /* border: solid black 1px; */
+    width: 50vw;
+    height: 20vh;
+    margin-top: -8.75rem;
+  }
+  .academys__recod{
+    /* border: solid black 1px; */
+    width: 50vw;
+    height: 20vh;
+    margin-top: -25rem;
+   }
+   figcaption{
+    font-size: 0.71rem;
+   }
+}

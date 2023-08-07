@@ -8,8 +8,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-background-color: var(  --background-color-header);
-
+  background-color: var(  --background-color-header);
 }
 .hobbies__music{
   /* border: solid black 1px; */
@@ -48,12 +47,13 @@ background-color: var(  --background-color-header);
   border: none;
 }
 /* estilo */
-
 .hobbies__title-text{
   font-family: var(--font-family);
-
+  color: var(--color-text);
 }
 .hobbies__video-text{
   font-family: var(--font-family);
-
+  color: var(--color-text);
+ 
 }
+/* corrigir bug do titulo */
